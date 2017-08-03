@@ -32,7 +32,7 @@ defmodule ExfileImagemagick.Mixfile do
 
   defp deps do
     [
-      {:exfile, "~> 0.3.1"},
+      {:exfile, github: "arillo/exfile"},
       {:earmark, "~> 0.1", only: :dev},
       {:ex_doc, "~> 0.11", only: :dev}
     ]
